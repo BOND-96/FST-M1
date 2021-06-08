@@ -53,7 +53,7 @@ public class Activity5 {
 
         // Enter your own phone number
         wait.until(ExpectedConditions.elementToBeClickable(MobileBy.AndroidUIAutomator(contactBoxLocator)));
-        driver.findElement(MobileBy.AndroidUIAutomator(contactBoxLocator)).sendKeys("9014842678");
+        driver.findElement(MobileBy.AndroidUIAutomator(contactBoxLocator)).sendKeys("8145846806");
         ((AndroidDriver<MobileElement>) driver).pressKey(new KeyEvent(AndroidKey.ENTER));
         
         // Wait for message box to load
